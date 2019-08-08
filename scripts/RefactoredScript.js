@@ -125,7 +125,7 @@ var GaugeChart = (function () {
         $("#Legend span").hide();
         $(datas).each(function (index, data) {
             $("#Legend span." + data.key).show();
-            $("#Legend").append('<div class="legend-entry"> <span class="' + data.key.replace(" ",'') + '">' + data.key + '</span> </div>');
+            $("#Legend").append('<div class="legend-entry col-md-4"> <span class="' + data.key.replace(" ",'') + '">' + data.key + '</span> </div>');
         });        
         $("#Legend").show();
     } 

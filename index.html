@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>POC - Gauge Chart</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="mystyles.css">
-	<script src="https://code.jquery.com/jquery.min.js"></script>
-	<script src="scripts/d3.js"></script>
+  <title>GaugeChart POC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="mystyles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-		<div id="GaugeChart"></div>
-		<div id="Legend" class="chart-legends"></div>	
-	<script src="scripts/RefactoredScript.js"></script>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">
+				<div id="GaugeChart"></div>
+		</div>			
+	</div>
+		<div id="Legend" class="chart-legends col-md-12"></div>
+</div>
+<script src="scripts/d3.js"></script>	
+<script src="scripts/RefactoredScript.js"></script>
 </body>
 </html>
