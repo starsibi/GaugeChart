@@ -78,7 +78,7 @@ svg.append("text")
 .text( d => "Total")
 .attr("dy", "-1rem")
 .attr("id", "status-label")
-.attr("text-anchor", "middle")
+.attr("text-anchor", "middle");
 
 
 function SemiCircle(svg, option) {
